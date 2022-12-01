@@ -12,6 +12,6 @@ RUN apt-get update  -qq \
 RUN usermod -aG docker jenkins
 
 FROM openjdk:8
-ADD target/RViP-2.jar RViP-2.jar
-ENTRYPOINT ["java", "-jar","RViP-2.jar"]
+ADD target/java-jenkins-docker.jar java-jenkins-docker.jar
+ENTRYPOINT ["java", "-jar","java-jenkins-docker.jar"]
 EXPOSE 8080
