@@ -12,6 +12,6 @@ RUN apt-get update  -qq \
 RUN usermod -aG docker jenkins
 
 FROM openjdk:8
-ADD target/java-jenkins-docker.jar java-jenkins-docker.jar
-ENTRYPOINT ["java", "-jar","java-jenkins-docker.jar"]
+ADD target/sspr_lab3.jar sspr_lab3.jar
+ENTRYPOINT ["java", "-jar","sspr_lab3/out/artifacts/sspr_lab3_jar/sspr_lab3.jar"]
 EXPOSE 8080

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="sspr_lab3:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/sspr_lab3_jar</output-path>
+    <root id="archive" name="sspr_lab3.jar">
+      <element id="module-output" name="sspr_lab3" />
+    </root>
+  </artifact>
+</component>
