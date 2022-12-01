@@ -8,7 +8,7 @@
     <artifactId>jenkins-docker</artifactId>
     <version>1.0-SNAPSHOT</version>
     <build>
-        <finalName>java-jenkins-docker</finalName>
+        <finalName>sspr_lab3</finalName>
     </build>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
