@@ -12,6 +12,6 @@ RUN apt-get update  -qq \
 RUN usermod -aG docker jenkins
 
 FROM openjdk:8
-ADD target/sspr_lab3.jar java-sspr_lab3.jar
+ADD target/java-sspr_lab3.jar java-sspr_lab3.jar
 ENTRYPOINT ["java", "-jar","java-sspr_lab3.jar"]
 EXPOSE 8080
